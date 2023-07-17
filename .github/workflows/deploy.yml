@@ -24,7 +24,7 @@ jobs:
 
       - name: Build
         run: yarn build
-        working-directory: ./pkg/crm-gui
+        working-directory: ./pkg/dreamcatcher
         env: 
           NODE_OPTIONS: --max-old-space-size=8192
           VITE_INFURA_API_KEY: ${{ secrets.VITE_INFURA_API_KEY }}
